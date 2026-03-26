@@ -1,0 +1,191 @@
+# **OPEN SOURCE SOFTWARE (OSS) PROJECT REPORT**
+
+## **Student Management System using Python**
+
+---
+
+## **Submitted By**
+
+Name: Radha Mewada
+Reg.No.-24mim10058
+Course: Integrated M.Tech (AI)
+Subject: Open Source Software (Non-Graded Mandatory Course)
+
+---
+
+## **Submitted To**
+
+(VIKASH PANTHI)
+(VIT Bhopal)
+
+---
+
+## **1. Introduction**
+
+Open Source Software (OSS) refers to software whose source code is freely available for anyone to use, modify, and distribute. It promotes collaboration, transparency, and innovation in software development.
+
+In this project, we have developed a **Student Management System** using Python, which is an open-source programming language. The project demonstrates how open-source tools can be used to build useful applications efficiently.
+
+---
+
+## **2. Objective**
+
+The main objectives of this project are:
+
+* To understand the concept of Open Source Software
+* To develop a basic management system using Python
+* To implement CRUD operations (Create, Read, Update, Delete)
+* To learn version control using GitHub
+
+---
+
+## **3. Project Description**
+
+The Student Management System is a simple console-based application that helps manage student records. It allows users to perform operations such as adding new students, viewing existing records, searching for specific students, and deleting records.
+
+The system uses Python data structures like lists and dictionaries to store and manage data efficiently.
+
+---
+
+## **4. Features of the Project**
+
+* Add Student Record
+* View All Students
+* Search Student by Roll Number
+* Delete Student Record
+* Simple Menu-driven Interface
+
+---
+
+## **5. Technologies Used**
+
+* Programming Language: Python
+* Editor: VS Code
+* Platform: GitHub
+
+---
+
+## **6. System Requirements**
+
+### Hardware Requirements:
+
+* Computer/Laptop
+* Minimum 4GB RAM
+
+### Software Requirements:
+
+* Python (version 3.x)
+* Code Editor (VS Code or any IDE)
+
+---
+
+## **7. Implementation**
+
+The project is implemented using Python functions. The main components include:
+
+### 1. Add Student
+
+This function takes input such as name and roll number and stores it in a list.
+
+### 2. View Students
+
+Displays all stored student records.
+
+### 3. Search Student
+
+Searches for a student using roll number.
+
+### 4. Delete Student
+
+Deletes a student record from the list.
+
+The program runs using a loop and displays a menu for user interaction.
+
+---
+
+## **8. Sample Code**
+
+```python
+students = []
+
+def add_student():
+    name = input("Enter name: ")
+    roll = input("Enter roll number: ")
+    students.append({"name": name, "roll": roll})
+
+def view_students():
+    for s in students:
+        print(s)
+
+def search_student():
+    roll = input("Enter roll: ")
+    for s in students:
+        if s['roll'] == roll:
+            print(s)
+
+def delete_student():
+    roll = input("Enter roll: ")
+    for s in students:
+        if s['roll'] == roll:
+            students.remove(s)
+```
+
+---
+
+## **9. Output**
+
+(Insert screenshots of program execution here)
+
+Example:
+
+* Menu display
+* Adding student
+* Viewing records
+
+---
+
+## **10. GitHub Repository Link**
+
+Project Link: (Paste your GitHub repository link here)
+
+---
+
+## **11. Advantages**
+
+* Easy to use
+* Simple implementation
+* Beginner-friendly project
+* Helps understand basic programming concepts
+
+---
+
+## **12. Limitations**
+
+* Data is not stored permanently
+* No graphical user interface
+* Limited functionality
+
+---
+
+## **13. Future Enhancements**
+
+* Add database (MySQL)
+* Create GUI using Tkinter
+* Add login system
+* Store data permanently using files
+
+---
+
+## **14. Conclusion**
+
+This project helped in understanding the concept of Open Source Software and practical implementation of a simple application using Python. It also improved programming skills and knowledge of version control systems.
+
+---
+
+## **15. References**
+
+* Python Official Documentation
+* GitHub
+* Online tutorials and learning resources
+
+---
